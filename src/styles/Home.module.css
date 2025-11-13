@@ -32,3 +32,19 @@
 .button:hover {
   background-color: #005bb5;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: transparent;
+}
+.logo {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+.nav {
+    display: flex;
+    gap: 1rem;
+}
